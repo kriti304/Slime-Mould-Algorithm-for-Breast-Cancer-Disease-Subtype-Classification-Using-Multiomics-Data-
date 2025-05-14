@@ -1,6 +1,10 @@
 # Slime-Mould-Algorithm-for-Breast-Cancer-Disease-Subtype-Classification-Using-Multiomics-Data-
 This project presents an intelligent web-based tool for classifying breast cancer subtypes based on multiomics data using advanced optimization algorithms. The core objective is to enhance classification performance through Slime Mould Algorithm (SMA)-based feature selection, and compare its performance against Genetic Algorithm (GA) and Particle Swarm Optimization (PSO) using Random Forest and SVM classifiers.
-#**Project Structure**
+
+
+
+
+**Project Structure**
 BCD Care/
 │
 ├── app.py                           # Main Flask application
