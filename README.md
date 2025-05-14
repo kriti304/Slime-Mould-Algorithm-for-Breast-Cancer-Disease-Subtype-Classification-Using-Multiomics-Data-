@@ -4,4 +4,40 @@ This project presents an intelligent web-based tool for classifying breast cance
 
 
 
-<pre> <code> 📁 Project Structure BCD Care/ ├── app.py # Main Flask application ├── models/ # Model scripts and saved .pkl artifacts │ ├── randomforest_withsma.py │ ├── randomforest_withga.py │ ├── randomforest_withpso.py │ ├── svm_withsma.py │ ├── svm_withga.py │ ├── svm_withpso.py │ ├── *.pkl # Trained models and selected feature files │ └── report.log # Logging information ├── project/uploads/ # Dataset storage │ └── brca_data_w_subtypes (1).csv ├── static/ # Logos and image assets │ ├── *.png │ ├── css/ │ │ ├── detection.css │ │ ├── eda.css │ │ ├── navbar.css │ │ ├── resources.css │ │ └── style.css │ └── js/ │ ├── detection.js │ └── eda.js ├── templates/ │ ├── index.html │ ├── detection.html │ ├── eda.html │ └── resources.html └── uploads/ └── brca_data_w_subtypes (1).csv
+## 📁 Project Structure
+
+<pre>
+<code>
+📦 BCD Care/
+├── app.py                          # 🧠 Main Flask application
+├── models/                         # 🤖 ML model scripts & saved artifacts
+│   ├── randomforest_withsma.py     # RF + Slime Mould Algorithm
+│   ├── randomforest_withga.py      # RF + Genetic Algorithm
+│   ├── randomforest_withpso.py     # RF + Particle Swarm Optimization
+│   ├── svm_withsma.py              # SVM + Slime Mould Algorithm
+│   ├── svm_withga.py               # SVM + Genetic Algorithm
+│   ├── svm_withpso.py              # SVM + Particle Swarm Optimization
+│   ├── *.pkl                       # 📦 Trained model & feature selection files
+│   └── report.log                  # 📝 Model training logs
+├── project/uploads/                # 📂 Raw dataset storage
+│   └── brca_data_w_subtypes (1).csv
+├── static/                         # 🎨 Front-end assets
+│   ├── *.png                       # Logos & images
+│   ├── css/                        # CSS styles
+│   │   ├── detection.css
+│   │   ├── eda.css
+│   │   ├── navbar.css
+│   │   ├── resources.css
+│   │   └── style.css
+│   └── js/                         # JavaScript files
+│       ├── detection.js
+│       └── eda.js
+├── templates/                      # 🧾 HTML templates
+│   ├── index.html                  # Home page
+│   ├── detection.html              # Detection module UI
+│   ├── eda.html                    # Exploratory Data Analysis page
+│   └── resources.html              # Resource links & documents
+└── uploads/                        # 📥 User-uploaded CSVs (runtime)
+    └── brca_data_w_subtypes (1).csv
+</code>
+</pre>
