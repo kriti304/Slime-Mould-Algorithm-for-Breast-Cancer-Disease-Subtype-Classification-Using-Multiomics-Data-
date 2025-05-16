@@ -4,7 +4,7 @@ This project presents an intelligent web-based tool for classifying breast cance
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 <pre>
 <code>
@@ -56,37 +56,12 @@ This project presents an intelligent web-based tool for classifying breast cance
 **Upload and analyze multiomics datasets in .csv format.**
 **Perform EDA with visual feature correlations.**
 **Select from six different model pipelines:**
--Random Forest with SMA, GA, PSO
--SVM with SMA, GA, PSO
+   - Random Forest with SMA, GA, PSO
+   - SVM with SMA, GA, PSO
 **Visual performance metrics and comparison:**
--ROC Curve
--Confusion Matrix
--Convergence Curves
--Radar Metrics
--Class Distribution (SMOTE)
-
-## 📌 Features
-
-- 📁 **Upload and Analyze Multiomics Datasets**
-  - Upload datasets in `.csv` format for model training and evaluation.
-
-- 📊 **Perform EDA (Exploratory Data Analysis)**
-  - Generate visualizations including feature correlations and distributions.
-
-- ⚙️ **Model Selection Options**
-  - Random Forest with:
-    - 🧠 Slime Mould Algorithm (SMA)
-    - 🧬 Genetic Algorithm (GA)
-    - 🌀 Particle Swarm Optimization (PSO)
-  - Support Vector Machine (SVM) with:
-    - 🧠 Slime Mould Algorithm (SMA)
-    - 🧬 Genetic Algorithm (GA)
-    - 🌀 Particle Swarm Optimization (PSO)
-
-- 📈 **Visual Performance Metrics and Comparison**
-  - 📉 ROC Curve  
-  - 🧩 Confusion Matrix  
-  - 📊 Convergence Curves  
-  - 🕸️ Radar Metrics  
-  - ⚖️ Class Distribution (after SMOTE)
+   - ROC Curve
+   - Confusion Matrix
+   - Convergence Curves
+   - Radar Metrics
+   - Class Distribution (SMOTE)
 
