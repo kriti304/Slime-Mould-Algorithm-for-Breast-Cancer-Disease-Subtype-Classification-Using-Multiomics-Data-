@@ -53,12 +53,12 @@ This project presents an intelligent web-based tool for classifying breast cance
 
 ## Features
 
-**Upload and analyze multiomics datasets in .csv format.**
-**Perform EDA with visual feature correlations.**
-**Select from six different model pipelines:**
+- **Upload and analyze multiomics datasets in .csv format.**
+- **Perform EDA with visual feature correlations.**
+- **Select from six different model pipelines:**
    - Random Forest with SMA, GA, PSO
    - SVM with SMA, GA, PSO
-**Visual performance metrics and comparison:**
+- **Visual performance metrics and comparison:**
    - ROC Curve
    - Confusion Matrix
    - Convergence Curves
