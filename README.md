@@ -65,7 +65,7 @@ This project presents an intelligent web-based tool for classifying breast cance
    - Radar Metrics
    - Class Distribution (SMOTE)
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone and Install
 
@@ -74,7 +74,8 @@ git clone https://github.com/Kriti/bcd-care.git
 cd bcd-care
 pip install -r requirements.txt
 
-Sample requirements.txt
+Sample ```bash ##requirements.txt
+```bash
 Flask
 Flask-CORS
 numpy
@@ -85,4 +86,6 @@ seaborn
 joblib
 imblearn
 lightgbm
+deap
+pyswarms
 
