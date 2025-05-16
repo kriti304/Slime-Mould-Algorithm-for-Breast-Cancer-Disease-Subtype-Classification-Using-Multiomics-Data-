@@ -46,7 +46,21 @@ This project presents an intelligent web-based tool for classifying breast cance
 ## Project Overview
 
 **Objective**: Classify patients' breast cancer subtypes (Alive/Dead) using multiomics data.
-Core Technique: Slime Mould Algorithm (SMA) for biologically-inspired feature selection.
-Comparative Methods: Genetic Algorithm (GA), Particle Swarm Optimization (PSO).
-Classifiers: Random Forest, SVM (Support Vector Machine).
-Balancing Method: SMOTE (Synthetic Minority Oversampling Technique).
+**Core Technique**: Slime Mould Algorithm (SMA) for biologically-inspired feature selection.
+**Comparative Methods**: Genetic Algorithm (GA), Particle Swarm Optimization (PSO).
+**Classifiers**: Random Forest, SVM (Support Vector Machine).
+**Balancing Method**: SMOTE (Synthetic Minority Oversampling Technique).
+
+## Features
+
+**Upload and analyze multiomics datasets in .csv format.**
+**Perform EDA with visual feature correlations.**
+**Select from six different model pipelines:**
+-Random Forest with SMA, GA, PSO
+-SVM with SMA, GA, PSO
+**Visual performance metrics and comparison:**
+-ROC Curve
+-Confusion Matrix
+-Convergence Curves
+-Radar Metrics
+-Class Distribution (SMOTE)
