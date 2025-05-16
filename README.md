@@ -45,11 +45,11 @@ This project presents an intelligent web-based tool for classifying breast cance
 
 ## Project Overview
 
-**Objective**: Classify patients' breast cancer subtypes (Alive/Dead) using multiomics data.
-**Core Technique**: Slime Mould Algorithm (SMA) for biologically-inspired feature selection.
-**Comparative Methods**: Genetic Algorithm (GA), Particle Swarm Optimization (PSO).
-**Classifiers**: Random Forest, SVM (Support Vector Machine).
-**Balancing Method**: SMOTE (Synthetic Minority Oversampling Technique).
+- **Objective**: Classify patients' breast cancer subtypes (Alive/Dead) using multiomics data.
+- **Core Technique**: Slime Mould Algorithm (SMA) for biologically-inspired feature selection.
+- **Comparative Methods**: Genetic Algorithm (GA), Particle Swarm Optimization (PSO).
+- **Classifiers**: Random Forest, SVM (Support Vector Machine).
+- **Balancing Method**: SMOTE (Synthetic Minority Oversampling Technique).
 
 ## Features
 
@@ -64,4 +64,25 @@ This project presents an intelligent web-based tool for classifying breast cance
    - Convergence Curves
    - Radar Metrics
    - Class Distribution (SMOTE)
+
+## 🔧 Setup Instructions
+
+### 1. Clone and Install
+
+```bash
+git clone https://github.com/Kriti/bcd-care.git
+cd bcd-care
+pip install -r requirements.txt
+
+Sample requirements.txt
+Flask
+Flask-CORS
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+imblearn
+lightgbm
 
