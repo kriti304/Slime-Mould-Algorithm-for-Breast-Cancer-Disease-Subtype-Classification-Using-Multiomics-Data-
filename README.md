@@ -152,17 +152,6 @@ Choose a model from dropdown:
 
 ---
 
-## 🎓 Authors
-
-This project was developed as part of academic research at **Banasthali Vidyapith**:
-
-- Kriti 
-- Ashmita Mukherjee 
-- Adwitya Chakraborty
-- Kajal 
-
-
-**Supervisor:** Dr. Rahul Kumar Vijay
 
 ---
 
