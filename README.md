@@ -79,7 +79,7 @@ BCD Care/
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com//bcd-care.git
+git clone https://github.com/bcd-care.git
 cd bcd-care
 pip install -r requirements.txt
 ```
@@ -149,9 +149,6 @@ Choose a model from dropdown:
 - Log Loss and Accuracy trends
 - Radar Performance Chart
 - SMA / PSO Convergence Plot
-
----
-
 
 ---
 
