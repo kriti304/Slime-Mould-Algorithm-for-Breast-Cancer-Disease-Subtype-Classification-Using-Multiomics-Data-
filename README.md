@@ -74,15 +74,6 @@ BCD Care/
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone and Install
-
-```bash
-git clone https://github.com/bcd-care.git
-cd bcd-care
-pip install -r requirements.txt
-```
 
 ### Sample `requirements.txt`
 
@@ -103,15 +94,6 @@ pyswarms
 
 ---
 
-## 🚀 How to Run
-
-```bash
-python app.py
-```
-
-Visit: `http://127.0.0.1:5000`
-
----
 
 ## 🧪 How It Works
 
