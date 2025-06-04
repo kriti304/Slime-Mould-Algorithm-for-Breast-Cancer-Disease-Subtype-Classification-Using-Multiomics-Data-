@@ -1,4 +1,3 @@
-reuirements
 1 Flask
 2 Flask-CORS
 3 pandas 
