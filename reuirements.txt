@@ -1,0 +1,2 @@
+reuirements
+pip install Flask Flask-CORS pandas numpy matplotlib seaborn scikit-learn joblib imbalanced-learn lightgbm deap pyswarms
